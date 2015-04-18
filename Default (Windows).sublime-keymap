@@ -690,5 +690,9 @@
 			{ "key": "preceding_text", "operator": "regex_match", "operand": ".*<$", "match_all": true },
 			{ "key": "setting.auto_close_tags" }
 		]
-	}
+	},
+
+	// quickXDev
+	{ "keys": ["f1"], "command": "quickx_goto_definition" },
+    { "keys": ["f5"], "command": "quickx_run_with_player_by_file" }
 ]
